@@ -1,0 +1,143 @@
+/*
+Theme Name: Froytakia
+Theme URI:
+Author: Φρουτακια
+Author URI:
+Description: Froytakia site
+Version: 1.0.0
+License: GNU General Public License v2 or later
+*/
+
+@import "custom.scss";
+@import "../../../../../../bootstrap/scss/functions";
+@import "../../../../../../bootstrap/scss/variables";
+
+@import "../../../../../../bootstrap/scss/mixins/breakpoints";
+@import "../../../../../../bootstrap/scss/mixins/grid-framework";
+@import "../../../../../../bootstrap/scss/mixins/grid";
+
+@import "../../../../../../bootstrap/scss/grid";
+@import "../../../../../../bootstrap/scss/utilities/display";
+@import "../../../../../../bootstrap/scss/utilities/flex";
+@import "../../../../../../bootstrap/scss/utilities/spacing";
+@import "../../../../../../bootstrap/scss/mixins";
+@import "../../../../../../bootstrap/scss/root";
+@import "../../../../../../bootstrap/scss/reboot";
+@import "../../../../../../bootstrap/scss/type";
+@import "../../../../../../bootstrap/scss/images";
+@import "../../../../../../bootstrap/scss/code";
+@import "../../../../../../bootstrap/scss/grid";
+@import "../../../../../../bootstrap/scss/tables";
+@import "../../../../../../bootstrap/scss/forms";
+@import "../../../../../../bootstrap/scss/buttons";
+@import "../../../../../../bootstrap/scss/transitions";
+//@import "../../../../../../bootstrap/scss/dropdown";
+//@import "../../../../../../bootstrap/scss/button-group";
+@import "../../../../../../bootstrap/scss/input-group";
+@import "../../../../../../bootstrap/scss/custom-forms";
+@import "../../../../../../bootstrap/scss/nav";
+@import "../../../../../../bootstrap/scss/navbar";
+@import "../../../../../../bootstrap/scss/card";
+//@import "../../../../../../bootstrap/scss/breadcrumb";
+@import "../../../../../../bootstrap/scss/pagination";
+@import "../../../../../../bootstrap/scss/badge";
+//@import "../../../../../../bootstrap/scss/jumbotron";
+//@import "../../../../../../bootstrap/scss/alert";
+@import "../../../../../../bootstrap/scss/progress";
+//@import "../../../../../../bootstrap/scss/media";
+@import "../../../../../../bootstrap/scss/list-group";
+//@import "../../../../../../bootstrap/scss/close";
+//@import "../../../../../../bootstrap/scss/toasts";
+//@import "../../../../../../bootstrap/scss/modal";
+//@import "../../../../../../bootstrap/scss/tooltip";
+//@import "../../../../../../bootstrap/scss/popover";
+@import "../../../../../../bootstrap/scss/carousel";
+//@import "../../../../../../bootstrap/scss/spinners";
+@import "../../../../../../bootstrap/scss/utilities";
+@import "../../../../../../bootstrap/scss/print";
+
+body{
+  background: #f4f4f4;
+  margin-top: 140px;
+}
+
+.heading{
+    border-bottom: 2px solid $secondary;
+    display: inline-block;
+    line-height: 0.85;
+    text-shadow:
+            2px 2px white,
+            2px -2px white,
+            -2px 2px white,
+            -2px -2px white;
+
+}
+.no-pad{
+  padding-left: 0;
+  padding-right: 0;
+}
+.p-reduced{
+  margin-bottom: -3px;
+}
+.alignleft{
+  float: left;
+}
+.alignright{
+  float: right;
+}
+.aligncenter{
+  display: block;
+  margin: auto;
+}
+.overflow{
+  overflow: hidden;
+}
+
+.w-img-50{
+  width: 50px;
+  height: 50px;
+}
+.w-img-70{
+  width: 70px;
+  height: 70px;
+}
+.w-img-30{
+  width: 30px;
+  height: 30px;
+}
+.back-image-cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back-image-contain{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* navbar */
+#menu-main-menu li {
+margin-left: 10px;
+}
+#menu-main-menu li a{
+  color: #ffffff;
+}
+
+@media screen and (max-width: 760px) {
+
+}
+@media screen and (min-width: 760px) and (max-width: 1100px) {
+
+}
+@media screen and (min-width: 1100px) and (max-width: 1560px) {
+
+}
+@media screen and (min-width: 1560px) and (max-width: 2100px) {
+
+}
+
+
+
+
